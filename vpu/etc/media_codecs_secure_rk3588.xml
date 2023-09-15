@@ -28,7 +28,7 @@
             <Feature name="secure-playback" required="true" />
             <Feature name="adaptive-playback"/>
             <Limit name="concurrent-instances" max="32" />
-            <Limit name="performance-point-7680x4320" value="30" />
+            <Limit name="performance-point-3840x2160" value="120" />
         </MediaCodec>
         <MediaCodec name="c2.rk.mpeg2.decoder.secure" type="video/mpeg2">
             <Quirk name="requires-allocate-on-input-ports" />
@@ -80,7 +80,7 @@
             <Feature name="secure-playback" required="true" />
             <Feature name="adaptive-playback"/>
             <Limit name="concurrent-instances" max="32" />
-            <Limit name="performance-point-7680x4320" value="60" />
+            <Limit name="performance-point-3840x2160" value="240" />
         </MediaCodec>
         <MediaCodec name="c2.rk.vp9.decoder.secure" type="video/x-vnd.on2.vp9">
             <Quirk name="requires-allocate-on-input-ports" />

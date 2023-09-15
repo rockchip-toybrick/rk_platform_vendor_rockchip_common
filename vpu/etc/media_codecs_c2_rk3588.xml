@@ -25,7 +25,7 @@
             <Limit name="frame-rate" range="1-60" />
             <Limit name="bitrate" range="1-80000000" />
             <Feature name="adaptive-playback" />
-            <Limit name="performance-point-7680x4320" value="30" />
+            <Limit name="performance-point-3840x2160" value="120" />
         </MediaCodec>
         <MediaCodec name="c2.rk.hevc.decoder" type="video/hevc">
             <Limit name="size" min="2x2" max="7680x4320" />
@@ -36,7 +36,7 @@
             <Limit name="frame-rate" range="1-60" />
             <Limit name="bitrate" range="1-80000000" />
             <Feature name="adaptive-playback" />
-            <Limit name="performance-point-7680x4320" value="60" />
+            <Limit name="performance-point-3840x2160" value="240" />
         </MediaCodec>
         <MediaCodec name="c2.rk.vp9.decoder" type="video/x-vnd.on2.vp9">
             <Limit name="size" min="320x182" max="4096x2160" />
@@ -47,7 +47,7 @@
             <Limit name="frame-rate" range="1-60" />
             <Limit name="bitrate" range="1-80000000" />
             <Feature name="adaptive-playback" />
-            <Limit name="performance-point-7680x4320" value="60" />
+            <Limit name="performance-point-3840x2160" value="240" />
         </MediaCodec>
         <MediaCodec name="c2.rk.vp8.decoder" type="video/x-vnd.on2.vp8">
             <Limit name="size" min="2x2" max="1920x1088" />
@@ -101,7 +101,7 @@
             <Limit name="frame-rate" range="1-60" />
             <Limit name="bitrate" range="1-80000000" />
             <Feature name="adaptive-playback" />
-            <Limit name="performance-point-7680x4320" value="30" />
+            <Limit name="performance-point-3840x2160" value="120" />
         </MediaCodec>
     </Decoders>
 
