@@ -26,6 +26,9 @@ PRODUCT_PACKAGES += \
     chat
 
 PRODUCT_PROPERTY_OVERRIDES +=ro.boot.noril=false
+endif
+ifeq ($(strip $(BOARD_HAS_RK_4G_MODEM)),true)
+PRODUCT_PROPERTY_OVERRIDES +=ro.boot.noril=false
 else
 PRODUCT_PROPERTY_OVERRIDES +=ro.boot.noril=true
 endif
